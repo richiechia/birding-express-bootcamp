@@ -1,0 +1,7 @@
+<form action="/note" method="POST">
+  <% listEntry.forEach((item) => { %>
+  <label for="<%=item%>"><%=item%></label><br />
+  <input type="text" id="<%=item%>" name="<%=item%>" /><br />
+  <% }) %>
+  <input type="submit" value="Submit" />
+</form>

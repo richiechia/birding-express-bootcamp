@@ -1,0 +1,9 @@
+    
+    <% const keys = Object.keys(indexResult) %>
+
+    <ul>
+      <% keys.forEach((key) => { %>
+      <p><b><u><%= key %></b></p></u>
+      <p><%= indexResult[key] %></p>
+      <% }) %>
+    </ul>
